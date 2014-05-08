@@ -5,7 +5,7 @@ This is a wrapper to the popular async module.
 It allows for chaining on the task.
 It is pretty straight forward to use. Just pass the name of the async function to use and the rest of the parameter, then begin to add task to the list.
 
-For all the functions you can use check here [async github](ashttps://github.com/caolan/async)
+For all the functions you can use check here [async github](https://github.com/caolan/async)
 
 
 example
