@@ -1,5 +1,5 @@
 {
-  "name": "asyncBuilder",
+  "name": "async-builder",
   "version": "0.0.2",
   "description": "This is a wrapper to the popular async module. It addes the then/add or push method to build task, complete the task with run method",
   "main": "bin/asyncBuilder.js",

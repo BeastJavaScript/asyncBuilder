@@ -1,0 +1,166 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . C:\Users\shava_000\AppData\Roaming\npm-cache\3a52ce78-.lock
+10 verbose tar pack [ 'C:\\Users\\SHAVA_~1\\AppData\\Local\\Temp\\npm-5908-U4AIoBq4\\1400330096157-0.17032062239013612\\tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\tmp.tgz
+12 verbose folder .
+13 info prepublish asyncBuilder@0.0.2
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. C:\Users\shava_000\AppData\Roaming\npm-cache\1f1177db-tar.lock
+16 silly lockFile 9e5bddc8-6157-0-17032062239013612-tmp-tgz tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\tmp.tgz
+17 verbose lock tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\tmp.tgz C:\Users\shava_000\AppData\Roaming\npm-cache\9e5bddc8-6157-0-17032062239013612-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 9e5bddc8-6157-0-17032062239013612-tmp-tgz tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\tmp.tgz
+21 silly lockFile 9e5bddc8-6157-0-17032062239013612-tmp-tgz tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\tmp.tgz
+22 verbose tar unpack C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\tmp.tgz
+23 silly lockFile 01a862d5-6157-0-17032062239013612-package tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\package
+24 verbose lock tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\package C:\Users\shava_000\AppData\Roaming\npm-cache\01a862d5-6157-0-17032062239013612-package.lock
+25 silly lockFile 9e5bddc8-6157-0-17032062239013612-tmp-tgz tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\tmp.tgz
+26 verbose lock tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\tmp.tgz C:\Users\shava_000\AppData\Roaming\npm-cache\9e5bddc8-6157-0-17032062239013612-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+34 silly gunzTarPerm extractEntry bin/AsyncBuilderProcess.js
+35 silly gunzTarPerm modified mode [ 'bin/AsyncBuilderProcess.js', 438, 420 ]
+36 silly gunzTarPerm extractEntry bin/asyncBuilder.js
+37 silly gunzTarPerm modified mode [ 'bin/asyncBuilder.js', 438, 420 ]
+38 silly gunzTarPerm extractEntry bin/test.js
+39 silly gunzTarPerm modified mode [ 'bin/test.js', 438, 420 ]
+40 silly gunzTarPerm extractEntry build
+41 silly gunzTarPerm modified mode [ 'build', 438, 420 ]
+42 silly gunzTarPerm extractEntry save
+43 silly gunzTarPerm modified mode [ 'save', 438, 420 ]
+44 silly lockFile 01a862d5-6157-0-17032062239013612-package tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\package
+45 silly lockFile 01a862d5-6157-0-17032062239013612-package tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\package
+46 silly lockFile 9e5bddc8-6157-0-17032062239013612-tmp-tgz tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\tmp.tgz
+47 silly lockFile 9e5bddc8-6157-0-17032062239013612-tmp-tgz tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\tmp.tgz
+48 verbose tar pack [ 'C:\\Users\\shava_000\\AppData\\Roaming\\npm-cache\\asyncBuilder\\0.0.2\\package.tgz',
+48 verbose tar pack   'C:\\Users\\SHAVA_~1\\AppData\\Local\\Temp\\npm-5908-U4AIoBq4\\1400330096157-0.17032062239013612\\package' ]
+49 verbose tarball C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package.tgz
+50 verbose folder C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\package
+51 silly lockFile 01a862d5-6157-0-17032062239013612-package tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\package
+52 verbose lock tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\package C:\Users\shava_000\AppData\Roaming\npm-cache\01a862d5-6157-0-17032062239013612-package.lock
+53 silly lockFile 3abc6e2f-e-asyncBuilder-0-0-2-package-tgz tar://C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package.tgz
+54 verbose lock tar://C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package.tgz C:\Users\shava_000\AppData\Roaming\npm-cache\3abc6e2f-e-asyncBuilder-0-0-2-package-tgz.lock
+55 silly lockFile 01a862d5-6157-0-17032062239013612-package tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\package
+56 silly lockFile 01a862d5-6157-0-17032062239013612-package tar://C:\Users\SHAVA_~1\AppData\Local\Temp\npm-5908-U4AIoBq4\1400330096157-0.17032062239013612\package
+57 silly lockFile 3abc6e2f-e-asyncBuilder-0-0-2-package-tgz tar://C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package.tgz
+58 silly lockFile 3abc6e2f-e-asyncBuilder-0-0-2-package-tgz tar://C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package.tgz
+59 silly lockFile 0d3dff6e-cache-asyncBuilder-0-0-2-package C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package
+60 verbose lock C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package C:\Users\shava_000\AppData\Roaming\npm-cache\0d3dff6e-cache-asyncBuilder-0-0-2-package.lock
+61 silly lockFile 0d3dff6e-cache-asyncBuilder-0-0-2-package C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package
+62 silly lockFile 0d3dff6e-cache-asyncBuilder-0-0-2-package C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package
+63 verbose tar unpack C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package.tgz
+64 silly lockFile 197b80fc-cache-asyncBuilder-0-0-2-package tar://C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package
+65 verbose lock tar://C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package C:\Users\shava_000\AppData\Roaming\npm-cache\197b80fc-cache-asyncBuilder-0-0-2-package.lock
+66 silly lockFile 3abc6e2f-e-asyncBuilder-0-0-2-package-tgz tar://C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package.tgz
+67 verbose lock tar://C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package.tgz C:\Users\shava_000\AppData\Roaming\npm-cache\3abc6e2f-e-asyncBuilder-0-0-2-package-tgz.lock
+68 silly gunzTarPerm modes [ '755', '644' ]
+69 silly gunzTarPerm extractEntry package.json
+70 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+71 silly gunzTarPerm extractEntry .npmignore
+72 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+73 silly gunzTarPerm extractEntry README.md
+74 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+75 silly gunzTarPerm extractEntry bin/AsyncBuilderProcess.js
+76 silly gunzTarPerm modified mode [ 'bin/AsyncBuilderProcess.js', 438, 420 ]
+77 silly gunzTarPerm extractEntry bin/asyncBuilder.js
+78 silly gunzTarPerm modified mode [ 'bin/asyncBuilder.js', 438, 420 ]
+79 silly gunzTarPerm extractEntry bin/test.js
+80 silly gunzTarPerm modified mode [ 'bin/test.js', 438, 420 ]
+81 silly gunzTarPerm extractEntry build
+82 silly gunzTarPerm modified mode [ 'build', 438, 420 ]
+83 silly gunzTarPerm extractEntry save
+84 silly gunzTarPerm modified mode [ 'save', 438, 420 ]
+85 silly lockFile 197b80fc-cache-asyncBuilder-0-0-2-package tar://C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package
+86 silly lockFile 197b80fc-cache-asyncBuilder-0-0-2-package tar://C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package
+87 silly lockFile 3abc6e2f-e-asyncBuilder-0-0-2-package-tgz tar://C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package.tgz
+88 silly lockFile 3abc6e2f-e-asyncBuilder-0-0-2-package-tgz tar://C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package.tgz
+89 verbose chmod C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package.tgz 644
+90 silly chown skipping for windows C:\Users\shava_000\AppData\Roaming\npm-cache\asyncBuilder\0.0.2\package.tgz
+91 silly lockFile 3a52ce78- .
+92 silly lockFile 3a52ce78- .
+93 silly publish { name: 'asyncBuilder',
+93 silly publish   version: '0.0.2',
+93 silly publish   description: 'This is a wrapper to the popular async module. It addes the then/add or push method to build task, complete the task with run method',
+93 silly publish   main: 'bin/asyncBuilder.js',
+93 silly publish   dependencies: { async: '~0.8.0' },
+93 silly publish   devDependencies: {},
+93 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+93 silly publish   keywords: [ 'async', 'promises', 'then', 'add', 'push' ],
+93 silly publish   author: { name: 'Shavauhn Gabay' },
+93 silly publish   license: 'MIT',
+93 silly publish   readme: '#asyncBuilder\r\n by [beastjavascript](https://twitter.com/BeastJavaScript)\r\n\r\nThis is a wrapper to the popular async module.\r\nIt allows for chaining on the task.\r\nIt is pretty straight forward to use. Just pass the name of the async function to use and the rest of the parameter, then begin to add task to the list.\r\n\r\nFor all the functions you can use check here [async github](https://github.com/caolan/async)\r\n\r\n\r\nexample\r\n\r\n\tasyncBuilder(\'series\',function(){\r\n    \r\n    console.log("everything is finished now")\r\n    \r\n    }).then(function(callback){\r\n    \t\r\n        ///Your async function here\r\n        \r\n        setTimeout(function(){\r\n        \tconsole.log("i am number one");\r\n            callback.call();\r\n        },200)\r\n        \r\n    }).then(function(callback){\r\n    \r\n    \tconsole.log("i am number two")\r\n        \r\n    }).run()\r\n    \r\n    \r\n    \r\n###Output\r\n\ti am number one\r\n    i am number two\r\n\r\nif we wanted to run these in parallel then we would just type this instead\r\n\r\n\r\n\tasyncBuilder(\'parallel\',function(){\r\n    \r\n    console.log("everything is finished now")\r\n    \r\n    }).then(function(callback){\r\n    \t\r\n        ///Your async function here\r\n        \r\n        setTimeout(function(){\r\n        \tconsole.log("i am number one");\r\n            callback.call();\r\n        },200)\r\n        \r\n    }).then(function(callback){\r\n    \r\n    \tconsole.log("i am number two")\r\n        \r\n    }).run()\r\n    \r\n    \r\n###Output\r\n\ti am number two\r\n    i am number one\r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    ',
+93 silly publish   readmeFilename: 'README.md',
+93 silly publish   _id: 'asyncBuilder@0.0.2',
+93 silly publish   dist: { shasum: 'd6d31a2fc74823b21bd31c7ce8d7781a3425617d' },
+93 silly publish   _from: '.' }
+94 verbose url raw asyncBuilder
+95 verbose url resolving [ 'https://registry.npmjs.org/', './asyncBuilder' ]
+96 verbose url resolved https://registry.npmjs.org/asyncBuilder
+97 info trying registry request attempt 1 at 08:34:56
+98 http PUT https://registry.npmjs.org/asyncBuilder
+99 http 403 https://registry.npmjs.org/asyncBuilder
+100 error publish Failed PUT 403
+101 error Error: forbidden user: beastjavascript not authorized to modify asyncBuilder
+101 error Changed: description "handle async dependency loading" -> "This is a wrapper to the popular async module. It addes the then/add or push method to build task, complete the task with run method"
+101 error Changed: dist-tags.latest "1.1.9" -> "0.0.2"
+101 error Added: versions.0.0.2
+101 error Changed: readme "**asyncBuilder** is now **Shepherd**\u000aPlease go to [https://github.com/Obvious/shepherd]" -> "#asyncBuilder\u000d\u000a by [beastjavascript](https://twitter.com/BeastJavaScript)\u000d\u000a\u000d\u000aThis is a wrapper to the popular async module.\u000d\u000aIt allows for chaining on the task.\u000d\u000aIt is pretty straight forward to use. Just pass the name of the async function to use and the rest of the parameter, then begin to add task to the list.\u000d\u000a\u000d\u000aFor all the functions you can use check here [async github](https://github.com/caolan/async)\u000d\u000a\u000d\u000a\u000d\u000aexample\u000d\u000a\u000d\u000a\u0009asyncBuilder('series',function(){\u000d\u000a    \u000d\u000a    console.log(\"everything is finished now\")\u000d\u000a    \u000d\u000a    }).then(function(callback){\u000d\u000a    \u0009\u000d\u000a        ///Your async function here\u000d\u000a        \u000d\u000a        setTimeout(function(){\u000d\u000a        \u0009console.log(\"i am number one\");\u000d\u000a            callback.call();\u000d\u000a        },200)\u000d\u000a        \u000d\u000a    }).then(function(callback){\u000d\u000a    \u000d\u000a    \u0009console.log(\"i am number two\")\u000d\u000a        \u000d\u000a    }).run()\u000d\u000a    \u000d\u000a    \u000d\u000a    \u000d\u000a###Output\u000d\u000a\u0009i am number one\u000d\u000a    i am number two\u000d\u000a\u000d\u000aif we wanted to run these in parallel then we would just type this instead\u000d\u000a\u000d\u000a\u000d\u000a\u0009asyncBuilder('parallel',function(){\u000d\u000a    \u000d\u000a    console.log(\"everything is finished now\")\u000d\u000a    \u000d\u000a    }).then(function(callback){\u000d\u000a    \u0009\u000d\u000a        ///Your async function here\u000d\u000a        \u000d\u000a        setTimeout(function(){\u000d\u000a        \u0009console.log(\"i am number one\");\u000d\u000a            callback.call();\u000d\u000a        },200)\u000d\u000a        \u000d\u000a    }).then(function(callback){\u000d\u000a    \u000d\u000a    \u0009console.log(\"i am number two\")\u000d\u000a        \u000d\u000a    }).run()\u000d\u000a    \u000d\u000a    \u000d\u000a###Output\u000d\u000a\u0009i am number two\u000d\u000a    i am number one\u000d\u000a    \u000d\u000a    \u000d\u000a    \u000d\u000a    \u000d\u000a    \u000d\u000a    \u000d\u000a    \u000d\u000a    \u000d\u000a    \u000d\u000a    \u000d\u000a    \u000d\u000a    "
+101 error Changed: time.modified "2013-02-17T02:27:30.301Z" -> "2014-05-17T12:34:07.719Z"
+101 error Added: time.0.0.2
+101 error Deleted: repository
+101 error Deleted: homepage
+101 error Changed: keywords.0 "asyncBuilder" -> "async"
+101 error Added: keywords.1
+101 error Added: keywords.2
+101 error Added: keywords.3
+101 error Added: keywords.4
+101 error Deleted: contributors
+101 error Added: author
+101 error Added: license
+101 error Added: _attachments: asyncBuilder
+101 error     at RegClient.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:237:14)
+101 error     at Request.self.callback (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+101 error     at Request.EventEmitter.emit (events.js:98:17)
+101 error     at Request.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+101 error     at Request.EventEmitter.emit (events.js:117:20)
+101 error     at IncomingMessage.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+101 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+101 error     at _stream_readable.js:920:16
+101 error     at process._tickCallback (node.js:415:13)
+102 error If you need help, you may report this *entire* log,
+102 error including the npm and node versions, at:
+102 error     <http://github.com/npm/npm/issues>
+103 error System Windows_NT 6.2.9200
+104 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+105 error cwd c:\sites\asyncBuilder
+106 error node -v v0.10.26
+107 error npm -v 1.4.3
+108 verbose exit [ 1, true ]
